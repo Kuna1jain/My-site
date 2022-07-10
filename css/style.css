@@ -9,16 +9,22 @@ body{
 padding-top: 100px;
 position: relative;
 }
-h2,h3{
+h3{
     color: white;
+}
+h2{
+    /* color: rgb(238, 90, 90); */
+    color: #E9322E;
 }
 h1{
+    font-size: 5rem;
     color: white;
     margin-top: 0px;
-    /* width: 100px;
-    margin: 0px auto; */
+    /* width: 100px;*/
+    margin: 50px auto 0px auto;
     font-family: 'Sacramento', cursive;
 }
+
 p{
     color: white;
 }
@@ -39,4 +45,73 @@ p{
     position: absolute;
     left: 23%;
     
+}
+.profile{
+    margin: 70px auto;
+    line-height: 2;
+}
+.intro{
+    width: 40%;
+    margin: auto;
+}
+hr{
+    color: #959794;
+    border-width: 8px ;
+    border-style: none;
+    border-top-style: dotted;
+    width: 4%;
+}
+.wd{
+    float: right;
+    width: 20%;
+    margin-left: 30px;
+
+}
+.ps{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+.contact-me{
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+
+}
+a {
+    color: #FFFFFF;
+    margin: 10px 20px;
+    text-decoration: none;
+    
+}
+.btn{
+    background-color: #E9322E;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 1.8vw;
+    font-weight: 100;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 100%;
+    
+}
+.bottom-container {
+    background-color: #45433E;
+    padding: 50px 0 20px;
+}
+
+.end{
+    color: #959794;
+}
+.btn:hover{
+    color: #45433E;
+}
+a:hover{
+    color: #E9322E;
 }
