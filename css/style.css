@@ -1,6 +1,6 @@
 body{
     /* background-color: rgb(63, 71, 81); */
-    background-color: black;
+    background-color:rgb(1, 1, 37);
     text-align: center;
     margin: 0px;
     font-family: 'Merriweather', serif;
@@ -8,6 +8,7 @@ body{
 .container{
 padding-top: 100px;
 position: relative;
+background-color: black;
 }
 h3{
     color: white;
@@ -71,6 +72,7 @@ hr{
     float: left;
     width: 30%;
     margin-right: 30px;
+    border-radius: 10%;
 }
 .skill-row{
     width: 50%;
@@ -84,7 +86,7 @@ hr{
 
 }
 a {
-    color: #FFFFFF;
+    color: navy;
     margin: 10px 20px;
     text-decoration: none;
     
@@ -102,12 +104,12 @@ a {
     
 }
 .bottom-container {
-    background-color: #45433E;
+    background-color: #e3e2e8;
     padding: 50px 0 20px;
 }
 
 .end{
-    color: #959794;
+    color: #767675;
 }
 .btn:hover{
     color: #45433E;
