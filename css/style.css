@@ -64,9 +64,9 @@ hr{
 }
 .wd{
     float: right;
-    width: 20%;
+    width: 23%;
     margin-left: 30px;
-
+    border-radius: 17%;
 }
 .ps{
     float: left;
